@@ -82,3 +82,24 @@ hr {
   border-top: 2px dotted #bbb;
   margin: 3rem 0;
 }
+
+.tech-icons, .learning-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between icons */
+  margin-top: 20px;
+}
+
+.tech-icons i, .learning-icons i {
+  color: #333;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.tech-icons i:hover, .learning-icons i:hover {
+  transform: scale(1.2);
+  color: #007bff;
+}
+
+.learning-icons {
+  margin-top: 40px;
+}
