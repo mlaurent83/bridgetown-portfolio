@@ -1,6 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-
 layout: default
 title: "About - Maëva Laurent-Estavel"
 page_class: about
