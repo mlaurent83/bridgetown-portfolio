@@ -103,3 +103,29 @@ hr {
 .learning-icons {
   margin-top: 40px;
 }
+
+.contact-page {
+  background-color: #fafafa;
+  color: #333;
+}
+
+.contact-page h1 {
+  font-size: 2.8rem;
+  color: var(--body-color);
+  text-align: center;
+}
+
+.contact-page .social-media {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.contact-page a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.contact-page a:hover {
+  color: #d64045;
+}

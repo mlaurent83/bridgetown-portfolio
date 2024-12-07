@@ -3,6 +3,7 @@ layout: default
 title: "Projects - Maëva Laurent-Estavel"
 description: "A showcase of Maëva Laurent-Estavel's projects"
 permalink: "/contact/"
+page_class: contact-page
 ---
 
 # Contact - Maëva Laurent-Estavel
