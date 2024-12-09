@@ -2,11 +2,14 @@ body {
   background-color: #F7F7F7;
   color: #333333;
   font-family: 'Libre Baskerville', serif;
+  margin: 0;
 }
 
 html {
   scroll-behavior: smooth;
 }
+
+
 
 .banner {
   background-image: url('path-to-your-image.jpg');

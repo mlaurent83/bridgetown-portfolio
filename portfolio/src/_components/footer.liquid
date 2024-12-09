@@ -8,19 +8,42 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    footer {
+      margin-top: auto; /* Push footer to bottom */
+      background-color: #EDE8DC;
+    }
+
+    .btn {
+      margin: 0; /* Adjust button spacing */
+    }
+  </style>
 </head>
 
 <body>
-  <footer class="text-center text-white" style="background-color: #EDE8DC;">
+  <!-- Content goes here -->
+
+  <footer class="text-center text-white">
     <div class="container">
       <section>
         <!-- Linkedin -->
-        <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="https://www.linkedin.com/in/ma%C3%ABva-laurent-estavel/" target="_blank" role="button"
-          data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-dark"
+          href="https://www.linkedin.com/in/ma%C3%ABva-laurent-estavel/" target="_blank" role="button">
+          <i class="fab fa-linkedin"></i>
+        </a>
         <!-- Github -->
-        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/mlaurent83" target="_blank"
-          role="button" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-dark" href="https://github.com/mlaurent83" target="_blank"
+          role="button">
+          <i class="fab fa-github"></i>
+        </a>
       </section>
     </div>
   </footer>
