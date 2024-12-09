@@ -15,13 +15,19 @@ main {
 }
 
 footer {
-  background-color: #EDE8DC;
+  background-color: #E6E6E6; /* Matches the second footer's background */
+  height: 100px; /* Fixed height for consistent spacing */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0; /* Removes any margin around the footer */
 }
 
-html {
-  scroll-behavior: smooth;
+footer a {
+  text-decoration: none;
+  margin: 0 15px; /* Adds space between icons */
+  font-size: 1.5rem; /* Adjust icon size if needed */
 }
-
 
 
 .banner {
