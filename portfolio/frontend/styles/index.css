@@ -1,4 +1,3 @@
-
 html, body {
   height: 100%;
   margin: 0;
@@ -11,22 +10,45 @@ html, body {
 }
 
 main {
-  flex: 1; /* Take up remaining space to push the footer to the bottom */
+  flex: 1;
 }
 
 footer {
-  background-color: #E6E6E6; /* Matches the second footer's background */
-  height: 100px; /* Fixed height for consistent spacing */
+  background-color: #E6E6E6;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0; /* Removes any margin around the footer */
+  margin-top: auto; /* Push footer to the bottom */
+}
+
+#loom-companion-mv3, iframe {
+  display: none !important;
+  height: 0;
+  width: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+footer {
+  background-color: #E6E6E6;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: relative;
+  z-index: 9999; /* Ensures it appears on top of other elements */
 }
 
 footer a {
   text-decoration: none;
-  margin: 0 15px; /* Adds space between icons */
-  font-size: 1.5rem; /* Adjust icon size if needed */
+  margin: 0 15px;
+  font-size: 1.5rem;
 }
 
 
