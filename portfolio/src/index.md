@@ -6,8 +6,6 @@ page_class: about
 
 # Maëva Laurent-Estavel
 
-**Full-Stack Developer | Passionate about Creating Seamless Digital Experiences**
-
 ## Background
 
 Hi!
