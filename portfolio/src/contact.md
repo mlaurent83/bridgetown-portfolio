@@ -6,9 +6,7 @@ permalink: "/contact/"
 page_class: contact-page
 ---
 
-# Contact - Maëva Laurent-Estavel
-
-## Contact Information
+# Contact me
 
 If you're interested in working together, send me an email or contact me on social media!
 
